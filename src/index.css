@@ -1,0 +1,6 @@
+/* Dile a Tailwind dónde escanear (rutas relativas a ESTE archivo) */
+@source '../index.html';
+@source './**/*.{ts,tsx,js,jsx,html}';
+
+/* Carga Tailwind (v4) */
+@import 'tailwindcss';
